@@ -50,7 +50,7 @@ def run_VA():
         print(answer)
         talk('What about your Girlfriend')
     elif 'single' in command:
-        talk('I am with releationship with google')
+        talk('I am with relationship with google')
     elif 'jokes' in command:
         talk(pyjokes.get_joke())
     elif 'how are you' in command:
